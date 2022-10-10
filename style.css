@@ -1,0 +1,56 @@
+@import url(reset.css);
+
+body {
+    background-color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 300px;
+    padding: 0 15px;
+    margin: 0 auto;
+    border: 1px solid white;
+    background-color: #212121;
+    color: #FFF;
+    border-radius: 10px;
+}
+
+.exchange-rates__heading {
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.exchange-rates__item {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-rate__left {
+    display: flex;
+}
+
+.item-rate__left p {
+    margin-left: 15px;
+}
+
+.left-item__flag {
+    width: 30px;
+}
+
+.left-item__flag img {
+    width: 100%;
+}
+
+.item-rate__right i {
+    font-size: 14px;
+}
+
+
